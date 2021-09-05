@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #79b4b7;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+h3 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* .navbar-nav {
+  margin-left: 10rem;
+} */
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.button-download {
+  margin: 5% 3% 5% 0;
+}
+
+.gambar {
+  width: 20%;
+  position: absolute;
+  margin-left: 50px;
+  width: 30%;
+  /* transform: rotate(25deg); */
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #9d9d9d;
+  margin-bottom: 1rem;
+}
+
+.icon .last:hover {
+  color: red;
+}
+
+.icon:hover {
+  color: #79b4b7;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #79b4b7;
+  color: white;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-images {
+  width: 10%;
+  border-radius: 100%;
+}
+
+.carousell-items {
+  margin-top: 2rem;
+  margin-right: 20px;
+}
+
+#press {
+  background-color: #79b4b7;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #79b4b7;
+  padding: 7% 15%;
+  color: white;
+  text-align: center;
+}
+.icon-bawah {
+  margin: 20px 10px;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.order {
+  color: black;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .gambar {
+    position: static;
+    width: 60%;
+  }
+}
